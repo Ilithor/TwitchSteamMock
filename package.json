@@ -8,7 +8,7 @@
     "start:node-media-server": "cd ./rtmpserver && yarn start",
     "start": "concurrently --kill-others \"yarn start:client\" \"yarn start:json-server\" \"yarn start:node-media-server\""
   },
-  "repository": "git@github.com:Ilithor/TwitchSteamMock.git",
+  "repository": "git@github.com:Ilithor/TwitchStreamMock.git",
   "author": "Daryk Kohler <daryk.kohler@gmail.com>",
   "license": "MIT",
   "dependencies": {
