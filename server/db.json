@@ -1,26 +1,21 @@
 {
   "streams": [
     {
-      "title": "herp",
-      "description": "derp",
-      "id": 1
-    },
-    {
       "title": "Test",
       "description": "This is a test",
-      "id": 2
+      "id": 1
     },
     {
       "title": "UserId test stream",
       "description": "This is to test if userId from google account is being tied to the stream",
       "userId": "112165209882882913349",
-      "id": 3
+      "id": 2
     },
     {
       "title": "Programmatic test",
       "description": "Testing if programmatic navigation is working",
       "userId": "112165209882882913349",
-      "id": 4
+      "id": 3
     }
   ]
 }
