@@ -22,6 +22,12 @@
       "description": "Testing if createStream still functions after refactor",
       "userId": "112165209882882913349",
       "id": 4
+    },
+    {
+      "title": "Editing Test",
+      "description": "This stream is for editing test purposes",
+      "userId": "112165209882882913349",
+      "id": 5
     }
   ]
 }
