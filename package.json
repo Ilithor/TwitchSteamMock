@@ -1,0 +1,16 @@
+{
+  "name": "streams",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:client": "cd ./client && yarn start",
+    "start:json-server": "cd ./server && yarn start",
+    "start": "concurrently --kill-others \"yarn start:client\" \"yarn start:json-server\""
+  },
+  "repository": "git@github.com:Ilithor/TwitchSteamMock.git",
+  "author": "Daryk Kohler <daryk.kohler@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^4.1.1"
+  }
+}
