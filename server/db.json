@@ -15,6 +15,12 @@
       "description": "This is to test if userId from google account is being tied to the stream",
       "userId": "112165209882882913349",
       "id": 3
+    },
+    {
+      "title": "Programmatic test",
+      "description": "Testing if programmatic navigation is working",
+      "userId": "112165209882882913349",
+      "id": 4
     }
   ]
 }
