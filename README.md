@@ -1,5 +1,26 @@
-﻿# TwitchStreamMock
+﻿# Video Streaming App
 
+> ## Note: 
+> This project assumes use of Yarn, you can use NPM but some of the automation features may break.
+
+## Running for the first time
+### Installing application
+Once the project has been pulled from the repository, install the necessary packages by using the install command in the main directory, which should install all necessary packages in all the sub-directories.
+
+```
+yarn install
+```
+
+### Starting application
+The root project directory is set up to launch all the microservices from a single package.json script:
+```
+yarn start
+```
+
+#### Details for nerds:
+The root project uses concurrently to install or launch all the microservices from one command.
+
+### How to Setup and Run a Stream
 To stream to the application, use a platform, such as OBS. 
 
 In the settings menu, navigate to the Stream tab, and input into the URL section: rtmp://localhost/live. 
