@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "install:client": "cd client&&yarn install",
+    "install:json-server": "cd server&&yarn install",
+    "install:node-media-server": "cd rtmpserver&&yarn install",
+    "postinstall": "yarn install:client&&yarn install:json-server&&yarn install:node-media-server",
     "start:client": "cd ./client && yarn start",
     "start:json-server": "cd ./server && yarn start",
     "start:node-media-server": "cd ./rtmpserver && yarn start",
